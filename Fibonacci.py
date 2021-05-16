@@ -8,6 +8,6 @@ elif n==1:
 else:
     for i in range(n):
         c=a+b
-        print(a)
+        print(a,end=",")
         a=b
         b=c
